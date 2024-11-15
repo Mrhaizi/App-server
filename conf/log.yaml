@@ -1,0 +1,17 @@
+- name:  normal
+  level: debug
+  appenders:
+      - type: FileLogAppender
+        file: /home/myq/Desktop/my_code/App-server/logs/normal.log
+        level: debug
+      - type: StdoutLogAppender
+        level: debug
+- name: system
+  level: error
+  appenders:
+      - type: FileLogAppender
+        level: error
+        file: /home/myq/Desktop/my_code/App-server/logs/system.log
+      - type: StdoutLogAppender
+        level: error
+ 
