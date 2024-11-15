@@ -1,0 +1,3 @@
+[submodule "ZuesFramework"]
+	path = ZuesFramework
+	url = git@github.com:Mrhaizi/ZuesFrameWork.git
